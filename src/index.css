@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import "tailwindcss";
+
+@variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-primary: #5044e5;
+  /* --color-primary-variant: #E5E5E5; */
+}
+
+/* ট্রানজিশন লজিক */
+:root {
+  --transition-speed: 0.3s;
+}
+
+body {
+  transition:
+    background-color var(--transition-speed) ease,
+    color var(--transition-speed) ease;
+}
+
+* {
+  font-family: "Manrope", sans-serif;
+  transition-property: background-color, border-color, color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms; /* ০.৩ সেকেন্ড */
+  cursor: none;
+}
+
+.our_work_card,
+.team,
+.submit {
+  transition: all 0.5s ease;
+}
+.our_work_card:hover,
+.team:hover,
+.submit:hover {
+  transform: scale(1.05);
+}
+
+
