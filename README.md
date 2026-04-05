@@ -1,16 +1,106 @@
-# React + Vite
+# 🌐 Animated Landing Page (React + Framer Motion)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive, and fully animated landing page built using **React** and **Framer Motion**. This project focuses on smooth UI/UX, elegant animations, and a clean design with full support for both **Dark Mode** and **Light Mode**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
 
-## React Compiler
+🔗 [View Live Project](https://agency-ai-6h76.vercel.app/)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* 🎨 Beautiful and modern UI design
+* 🌙 Dark / Light mode toggle
+* 🎬 Smooth animations using Framer Motion
+* 📱 Fully responsive (mobile, tablet, desktop)
+* ⚡ Fast performance with optimized components
+* 🧩 Reusable and clean component structure
+
+---
+
+## 🛠️ Tech Stack
+
+* **React.js** – Frontend library
+* **Framer Motion** – Animation library
+* **CSS / Tailwind / Styled Components** (update based on your project)
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+│
+├── components/     # Reusable UI components
+├── pages/          # Page sections
+├── assets/         # Images, icons, etc.
+├── styles/         # Styling files
+└── App.js          # Main app component
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/shahadat1993/Agency.ai.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd YOUR_REPO_NAME
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Run the development server:
+
+   ```bash
+   npm start
+   ```
+
+---
+
+## 🌗 Dark Mode
+
+This project includes a seamless dark/light theme toggle for better user experience.
+You can easily customize themes from the styling configuration.
+
+---
+
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+Feel free to fork this repo and submit a pull request.
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## 👨‍💻 Author
+
+MD:Shahadat
+🔗 GitHub: https://github.com/shahadat1993
+
+---
+
+## ⭐ Support
+
+If you like this project, please consider giving it a ⭐ on GitHub!
+
+---
